@@ -77,7 +77,7 @@ def _is_plausible_person_name(name: str) -> bool:
         return False
     if any(word.casefold().strip(".,") in rejected_terms for word in words):
         return False
-    if any(not re.fullmatch(r"[A-Za-z?-??-??-?'.-]+", word) for word in words):
+    if any(not re.fullmatch(r"[A-Za-zÀ-ÖØ-öø-ÿ'.-]+", word) for word in words):
         return False
     return all(word[0].isupper() for word in words if word[0].isalpha())
 
@@ -122,10 +122,12 @@ def _resolve_profile_url(profile_url: str, university_homepage: str) -> tuple[st
         cleared (kept as "") since it isn't a usable individual page — but
         again, the candidate itself is NOT rejected.
       - Off-university-domain personal sites (personal .net/.com domains,
-        GitHub Pages, lab subdomains, etc.) are now accepted as-is. A
-        domain mismatch with the university's homepage is no longer treated
-        as invalid, since professors very often list personal pages that
-        live off the university's domain.
+        GitHub Pages, lab subdomains, other departmental domains like
+        "cs.toronto.edu" for a "utoronto.ca" university, etc.) are accepted
+        as-is. A domain mismatch with the university's homepage is NOT
+        treated as invalid — professors and departments very often live on
+        a domain that differs from the university's main homepage, and
+        rejecting those was dropping large numbers of real professors.
       - Otherwise the normalized URL is returned unchanged.
     """
     normalized_url, extracted_email = _normalize_profile_url(profile_url, university_homepage)
@@ -151,7 +153,14 @@ def _snippet_looks_like_collection(snippet: object) -> bool:
     if not isinstance(snippet, str):
         return False
     normalized = re.sub(r"\s+", " ", snippet).casefold()
-    phrases = ("faculty profiles", "faculty directory", "meet our faculty", "our faculty", "research area", "research areas", "browse faculty", "list of faculty", "administrative staff", "staff directory")
+    # NOTE: "research area(s)" was intentionally removed from this list.
+    # The LLM commonly formats a perfectly normal, single-professor snippet
+    # as "Research Areas: X, Y Research Interests: Z" — that phrasing is a
+    # per-person label, not a signal that the source was a directory page,
+    # so keeping it here caused real professors to be dropped. The phrases
+    # below are specific enough to genuinely indicate a listing/collection
+    # page rather than one individual's own summary.
+    phrases = ("faculty profiles", "faculty directory", "meet our faculty", "our faculty", "browse faculty", "list of faculty", "administrative staff", "staff directory")
     return any(phrase in normalized for phrase in phrases)
 
 
@@ -166,9 +175,9 @@ def _filter_faculty_candidates(faculty: list[dict], university: dict) -> list[di
          rather than one specific person.
 
     A missing profile_url, or a profile_url on a domain different from the
-    university's own site, is NOT a rejection reason — real professors are
-    kept either way. Only known junk/directory URLs get cleared (see
-    _resolve_profile_url), never the whole candidate.
+    university's own homepage domain, is NOT a rejection reason — real
+    professors are kept either way. Only known junk/directory URLs get
+    cleared (see _resolve_profile_url), never the whole candidate.
     """
     university_name = str(university.get("name", "")).strip()
     homepage = str(university.get("homepage", "") or university.get("homepage_guess", "")).strip()
