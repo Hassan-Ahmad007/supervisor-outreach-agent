@@ -31,7 +31,7 @@ export default function Hero() {
     field: formData.researchField,
   });
 
-  router.push(`/loading?${search.toString()}`);
+  router.push(`/search-loading?${search.toString()}`);
 };
 
   useEffect(() => {
