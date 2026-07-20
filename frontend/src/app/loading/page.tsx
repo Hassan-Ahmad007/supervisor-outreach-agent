@@ -1,6 +1,12 @@
 "use client";
 
-import React, { useEffect, useMemo, useState, useRef } from "react";
+import React, {
+  Suspense,
+  useEffect,
+  useMemo,
+  useState,
+  useRef,
+} from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import ProgressBar from "@/components/loading/ProgressBar";
 import LoadingSteps from "@/components/loading/LoadingSteps";
@@ -31,7 +37,7 @@ const createInitialPayload = (): ProgressPayload => ({
   status: "Connecting to Multi-Agent Pipeline...",
 });
 
-export default function LoadingPage() {
+function LoadingPageContent() {
   const [progressPayload, setProgressPayload] = useState<ProgressPayload>(createInitialPayload);
   const [requestError, setRequestError] = useState("");
   const [isComplete, setIsComplete] = useState(false);
@@ -41,6 +47,10 @@ export default function LoadingPage() {
     faculty: 0,
     ranked: 0,
   });
+  
+  
+
+  
 
   const router = useRouter();
   const searchParams = useSearchParams();
@@ -240,5 +250,19 @@ export default function LoadingPage() {
         }
       `}</style>
     </main>
+  );
+}
+
+export default function LoadingPage() {
+  return (
+    <Suspense
+      fallback={
+        <main className="flex min-h-screen items-center justify-center">
+          Loading...
+        </main>
+      }
+    >
+      <LoadingPageContent />
+    </Suspense>
   );
 }
