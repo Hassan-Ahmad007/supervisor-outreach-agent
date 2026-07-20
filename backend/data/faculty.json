@@ -1,160 +1,228 @@
 [
   {
-    "name": "Otman Basir",
-    "profile_url": "https://uwaterloo.ca/electrical-computer-engineering/profile/obasir",
-    "research_snippet": "Intelligent Embedded Systems, Sensory Systems Design, Biologically Inspired Intelligent Systems, and Human-Computer Interface (HCI) Systems",
+    "name": "Sandeep Chinchali",
+    "profile_url": "",
+    "research_snippet": "Research in Deep Learning focuses on developing new algorithms and techniques for deep neural networks.",
     "accepting_students_signal": "unclear",
-    "university": "University of Waterloo",
-    "email": "obasir@uwaterloo.ca",
+    "university": "University of Texas at Austin",
+    "email": null,
     "publications": [],
-    "profile_summary": "Professor Otman Basir is a researcher in Intelligent Embedded Systems, Sensory Systems Design, Biologically Inspired Intelligent Systems, and Human-Computer Interface (HCI) Systems at the University of Waterloo.",
+    "profile_summary": "Research focuses on deep learning, with a focus on developing new algorithms and techniques for deep neural networks.",
     "research_areas": [
-      "Intelligent Embedded Systems",
-      "Sensory Systems Design",
-      "Biologically Inspired Intelligent Systems",
-      "Human-Computer Interface (HCI) Systems"
+      "Deep Learning"
+    ],
+    "recent_work": [],
+    "accepting_students": "Unknown",
+    "profiled": true,
+    "profile_source_url": null,
+    "profile_warning": "Could not extract professor page text."
+  },
+  {
+    "name": "Inderjit S. Dhillon",
+    "profile_url": "",
+    "research_snippet": "Research in Deep Learning focuses on developing new algorithms and techniques for deep neural networks.",
+    "accepting_students_signal": "unclear",
+    "university": "University of Texas at Austin",
+    "email": null,
+    "publications": [],
+    "profile_summary": "Research in Deep Learning focuses on developing new algorithms and techniques for deep neural networks. However, more information is needed to provide a comprehensive summary.",
+    "research_areas": [
+      "Deep Learning"
+    ],
+    "recent_work": [],
+    "accepting_students": "Unknown",
+    "profiled": true,
+    "profile_source_url": null,
+    "profile_warning": "Could not extract professor page text."
+  },
+  {
+    "name": "Kristen Grauman",
+    "profile_url": "",
+    "research_snippet": "Research in Deep Learning focuses on developing new algorithms and techniques for deep neural networks.",
+    "accepting_students_signal": "unclear",
+    "university": "University of Texas at Austin",
+    "email": null,
+    "publications": [],
+    "profile_summary": "Research in Deep Learning focuses on developing new algorithms and techniques for deep neural networks. The professor's expertise lies in this area.",
+    "research_areas": [
+      "Deep Learning"
+    ],
+    "recent_work": [],
+    "accepting_students": "Unknown",
+    "profiled": true,
+    "profile_source_url": null,
+    "profile_warning": "Could not extract professor page text."
+  },
+  {
+    "name": "Risto Miikkulainen",
+    "profile_url": "",
+    "research_snippet": "Research in Deep Learning focuses on developing new algorithms and techniques for deep neural networks.",
+    "accepting_students_signal": "unclear",
+    "university": "University of Texas at Austin",
+    "email": null,
+    "publications": [],
+    "profile_summary": "Research in Deep Learning focuses on developing new algorithms and techniques for deep neural networks. The professor's expertise lies in this area.",
+    "research_areas": [
+      "Deep Learning"
+    ],
+    "recent_work": [],
+    "accepting_students": "Unknown",
+    "profiled": true,
+    "profile_source_url": null,
+    "profile_warning": "Could not extract professor page text."
+  },
+  {
+    "name": "Junhua Ding",
+    "profile_url": "https://ci.unt.edu/exec/data-centric-ai/faculty.html",
+    "research_snippet": "His research focuses on developing novel, data-driven solutions to complex challenges, with an emphasis on translating cutting-edge technologies into practical tools for analysis and decision-making.",
+    "accepting_students_signal": "unclear",
+    "university": "University of North Texas",
+    "email": "ci-dean@unt.edu",
+    "publications": [],
+    "profile_summary": "Dr. Junhua Ding is the Reinburg Endowed Professor and Chair of the Anuradha and Vikas Sinha Department of Data Science at the University of North Texas. His research focuses on developing novel, data-driven solutions to complex challenges, with an emphasis on translating cutting-edge technologies into practical tools for analysis and decision-making.",
+    "research_areas": [
+      "data science",
+      "artificial intelligence",
+      "software engineering",
+      "biomedical computation"
+    ],
+    "recent_work": [],
+    "accepting_students": "Unknown",
+    "profiled": true,
+    "profile_source_url": "https://ci.unt.edu/exec/data-centric-ai/faculty.html"
+  },
+  {
+    "name": "Song Fu",
+    "profile_url": "",
+    "research_snippet": "AI-Related Research and Capabilities",
+    "accepting_students_signal": "unclear",
+    "university": "University of North Texas",
+    "email": null,
+    "publications": [
+      {
+        "title": "Practitioner Beliefs and Behaviors in AI-Enhanced Education: DOT Framework Survey Evidence",
+        "year": 2026,
+        "source": "arXiv.org",
+        "link": "https://www.semanticscholar.org/paper/24fc325d7fc0068015746a3c1f9778c13039f519"
+      },
+      {
+        "title": "Amplitude analysis of the chi(c1) -> eta pi(+)pi(-) decays",
+        "year": 2016,
+        "source": "Semantic Scholar",
+        "link": "https://www.semanticscholar.org/paper/bb1ee1de3e0a905fd3dc54384649cede9b205196"
+      }
+    ],
+    "profile_summary": "Professor with expertise in AI-related research and capabilities, with recent publications in education and physics.",
+    "research_areas": [
+      "AI-Related Research and Capabilities"
     ],
     "recent_work": [
-      "Knowledgebase approximation using association rule aggregation",
-      "Distributed Spectrum Sharing Using Blockchain: A Hyperledger Fabric Implementation",
-      "Decentralized Identifiers and Verifiable Credentials for Smartphone Anticounterfeiting and Decentralized IMEI Database",
-      "Capability-based non-fungible tokens approach for a decentralized AAA framework in IoT",
-      "Smart Phone Anti-counterfeiting System Using a Decentralized Identity Management Framework",
-      "A Dempster-Shafer Sensor Fusion Approach for Traffic Incident Detection and Localization",
-      "A distributed sensor management for large-scale IoT indoor acoustic surveillance",
-      "Identity management in iot networks using blockchain and smart contracts",
-      "A Game Theoretic Solution for the Territory Sharing Problem in Social Taxi Networks",
-      "A Bargaining-Based Solution to the Team Mobility Planning Game"
+      "Practitioner Beliefs and Behaviors in AI-Enhanced Education: DOT Framework Survey Evidence",
+      "Amplitude analysis of the chi(c1) -> eta pi(+)pi(-) decays"
     ],
-    "accepting_students": "Unknown",
-    "profiled": true,
-    "profile_source_url": "https://uwaterloo.ca/electrical-computer-engineering/profile/obasir"
-  },
-  {
-    "name": "Jimmy Lin",
-    "profile_url": "https://cs.uwaterloo.ca/~jimmylin/",
-    "research_snippet": "scalable retrieval infrastructure to enable efficient processing of the large, complex datasets involved in industrial R&D",
-    "accepting_students_signal": "unclear",
-    "university": "University of Waterloo",
-    "email": null,
-    "publications": [],
-    "profile_summary": "Professor and David R. Cheriton Chair in the David R. Cheriton School of Computer Science at the University of Waterloo, with research interests in information retrieval, natural language processing, and data management.",
-    "research_areas": [
-      "information retrieval",
-      "natural language processing",
-      "data management"
-    ],
-    "recent_work": [],
-    "accepting_students": "Unknown",
-    "profiled": true,
-    "profile_source_url": "https://cs.uwaterloo.ca/~jimmylin/"
-  },
-  {
-    "name": "Victor Zhong",
-    "profile_url": "",
-    "research_snippet": "Deep Research Agents for Natural Science R&D, developing an end-to-end intelligent research assistant capable of retrieving, reasoning over, and acting on diverse experimental data sources",
-    "accepting_students_signal": "unclear",
-    "university": "University of Waterloo",
-    "email": null,
-    "publications": [],
-    "profile_summary": "Professor's research focuses on developing an intelligent research assistant for natural science R&D.",
-    "research_areas": [
-      "Natural Science",
-      "Artificial Intelligence"
-    ],
-    "recent_work": [],
     "accepting_students": "Unknown",
     "profiled": true,
     "profile_source_url": null,
     "profile_warning": "Could not extract professor page text."
   },
   {
-    "name": "Shai Ben-David",
-    "profile_url": "https://cs.uwaterloo.ca/~shai/",
-    "research_snippet": "machine learning theory, logic, the theory of distributed computation and complexity theory",
+    "name": "Yunhe Feng",
+    "profile_url": "https://yunhefeng.me/lab/Team",
+    "research_snippet": "My research advances the frontiers of Efficient Generative AI, Trustworthy AI, and Data Privacy and Security.",
     "accepting_students_signal": "unclear",
-    "university": "University of Waterloo",
-    "email": null,
+    "university": "University of North Texas",
+    "email": "hanzhizhang@my.unt.edu",
     "publications": [],
-    "profile_summary": "Shai Ben-David is a professor at the University of Waterloo, with a background in physics, mathematics, and psychology, and a PhD in set theory. His research interests include machine learning, logic, and the theory of distributed computation and complexity theory. He aims to provide mathematical formulation and understanding of real world problems.",
+    "profile_summary": "Dr. Yunhe Feng is an Assistant Professor of Computer Science and Engineering at the University of North Texas, directing the Responsible AI Lab and the Master of Science in Artificial Intelligence program. His research focuses on Efficient Generative AI, Trustworthy AI, and Data Privacy and Security.",
     "research_areas": [
-      "machine learning",
-      "logic",
-      "distributed computation and complexity theory"
+      "Efficient Generative AI",
+      "Trustworthy AI",
+      "Data Privacy and Security"
+    ],
+    "recent_work": [
+      "ProMCP: a framework for profiling token flows and latency costs in Model Context Protocol-based LLM agents",
+      "HALO: a retrieval-augmented framework for clinical decision support",
+      "Poly-FEVER: a multilingual fact verification benchmark for evaluating hallucinations across large language models"
+    ],
+    "accepting_students": "Unknown",
+    "profiled": true,
+    "profile_source_url": "https://yunhefeng.me/lab/Team"
+  },
+  {
+    "name": "George Mihaila",
+    "profile_url": "https://gmihaila.github.io/resume/resume",
+    "research_snippet": "My main research area is in NLP with focus on dialogue generation with persona.",
+    "accepting_students_signal": "unclear",
+    "university": "University of North Texas",
+    "email": "Rodney.Nielsen@UNT.edu",
+    "publications": [],
+    "profile_summary": "Professor with expertise in NLP, deep learning, and machine learning, with a focus on dialogue generation with persona. Has experience in industry and academia, with a strong publication record.",
+    "research_areas": [
+      "Neural Networks",
+      "Deep Learning",
+      "Natural Language Processing",
+      "Reinforcement Learning",
+      "Computer Vision"
     ],
     "recent_work": [],
     "accepting_students": "Unknown",
     "profiled": true,
-    "profile_source_url": "https://cs.uwaterloo.ca/~shai/"
+    "profile_source_url": "https://gmihaila.github.io/resume/resume"
   },
   {
-    "name": "Richard Sutton",
-    "profile_url": "",
-    "research_snippet": "co-recipient of the 2024 A.M. Turing Award for his work as one of the founders of reinforcement learning",
-    "accepting_students_signal": "unclear",
-    "university": "University of Alberta",
-    "email": null,
+    "name": "Ke Yang",
+    "profile_url": "https://caicc.utsa.edu/faculty/profiles/yang-ke.html",
+    "research_snippet": "Algorithmic fairness, Data ethics, Data management, Machine learning",
+    "accepting_students_signal": true,
+    "university": "University of Texas at San Antonio",
+    "email": "Ke.Yang@utsa.edu",
     "publications": [],
-    "profile_summary": "Recipient of the 2024 A.M. Turing Award for contributions to reinforcement learning.",
+    "profile_summary": "Ke Yang is an Assistant Professor in the Computer Science department at UTSA, with research interests in algorithmic fairness, data ethics, data management, and machine learning.",
     "research_areas": [
-      "Reinforcement Learning"
+      "Algorithmic fairness",
+      "Data ethics",
+      "Data management",
+      "Machine learning"
     ],
     "recent_work": [],
-    "accepting_students": "Unknown",
+    "accepting_students": true,
+    "profiled": true,
+    "profile_source_url": "https://caicc.utsa.edu/faculty/profiles/yang-ke.html"
+  },
+  {
+    "name": "Debaditya Chakraborty",
+    "profile_url": "",
+    "research_snippet": "Machine Learning and Deployment",
+    "accepting_students_signal": true,
+    "university": "University of Texas at San Antonio",
+    "email": null,
+    "publications": [],
+    "profile_summary": "Research interests in Machine Learning and Deployment, but no recent publications available.",
+    "research_areas": [
+      "Machine Learning",
+      "Deployment"
+    ],
+    "recent_work": [],
+    "accepting_students": true,
     "profiled": true,
     "profile_source_url": null,
     "profile_warning": "Could not extract professor page text."
   },
   {
-    "name": "Pierre Boulanger",
+    "name": "Jiannan Cai",
     "profile_url": "",
-    "research_snippet": "Advanced Man-Machine Interfaces (AMMI) research",
-    "accepting_students_signal": "unclear",
-    "university": "University of Alberta",
+    "research_snippet": "Machine Learning and Deployment",
+    "accepting_students_signal": true,
+    "university": "University of Texas at San Antonio",
     "email": null,
     "publications": [],
-    "profile_summary": "Professor's research focuses on Advanced Man-Machine Interfaces (AMMI).",
+    "profile_summary": "Professor's research focuses on Machine Learning and Deployment, but recent publications are not available.",
     "research_areas": [
-      "Advanced Man-Machine Interfaces"
+      "Machine Learning",
+      "Deployment"
     ],
     "recent_work": [],
-    "accepting_students": "Unknown",
-    "profiled": true,
-    "profile_source_url": null,
-    "profile_warning": "Could not extract professor page text."
-  },
-  {
-    "name": "Adam White",
-    "profile_url": "",
-    "research_snippet": "Artificial Intelligence research, Director of Alberta Machine Intelligence Institute (Amii)",
-    "accepting_students_signal": "unclear",
-    "university": "University of Alberta",
-    "email": null,
-    "publications": [],
-    "profile_summary": "Director of Alberta Machine Intelligence Institute (Amii) with expertise in Artificial Intelligence research.",
-    "research_areas": [
-      "Artificial Intelligence"
-    ],
-    "recent_work": [],
-    "accepting_students": "Unknown",
-    "profiled": true,
-    "profile_source_url": null,
-    "profile_warning": "Could not extract professor page text."
-  },
-  {
-    "name": "Kumar Punithakumar",
-    "profile_url": "",
-    "research_snippet": "Advanced Man-Machine Interfaces (AMMI) research",
-    "accepting_students_signal": "unclear",
-    "university": "University of Alberta",
-    "email": null,
-    "publications": [],
-    "profile_summary": "Professor's research focuses on Advanced Man-Machine Interfaces (AMMI).",
-    "research_areas": [
-      "Advanced Man-Machine Interfaces"
-    ],
-    "recent_work": [],
-    "accepting_students": "Unknown",
+    "accepting_students": true,
     "profiled": true,
     "profile_source_url": null,
     "profile_warning": "Could not extract professor page text."
